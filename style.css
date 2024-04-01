@@ -1,0 +1,118 @@
+/*General CSS*/
+h1,h2,h3,dt,p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 150;
+}
+
+
+
+/*About Section CSS*/
+.About {
+    background-color: #131316;
+    padding: none;
+    margin: none;
+}
+.About .wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.About .image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.About .content h2{
+    padding-left: 3rem;
+    color: #fbfaf8;
+    font-weight: 150;
+}
+
+.About .content p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #fbfaf8;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.About img {
+    width: 350px;
+    height: auto;
+}
+
+/*Experience CSS*/
+.Experience {
+    background-color: #fffdfa;
+    margin: none;
+    padding: none;
+}
+
+.Experience .content{
+    border-color: #131316;
+    border-radius: 1px;
+    padding: 0 4.5rem 4.5rem 0;
+}
+
+.Experience .content h2{
+    text-align: center;
+}
+
+.Experience .content dt{
+    font-weight: 150;
+    place-items: center;
+}
+
+.Experience .content dl {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.Experience .content p {
+    padding-right: .5rem;
+    line-height: 1.25;
+}
+
+
+
+.Experience .content button:hover {
+    border-color: #FFADAD;
+}
+.Experience .content button{
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: none;
+    border: 1px solid;
+    border-color:#131316;
+    border-radius: 3px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px;
+    transition: border-color .2s;
+}
+
+/*Extracurriculars CSS*/
+.Activities .inner h2{
+    font-weight: 150;
+    padding-left: 6rem;
+}
+
+.Activities .inner dt{
+    padding-left: 6rem;
+}
+
+.Activities .inner p{
+    font-weight: 100;
+    padding-left: 7rem;
+    line-height: 1.5;
+}
